@@ -5,13 +5,12 @@
 border: 1px solid;
 
 }
-.hh {
+.section1 {
     display: flex;
     justify-content: center;
    margin-top: 5%;
    padding: 60px;
    margin: 40px;
-padding: relative;
 }
 .hh h5{
 font-size: 45px;
@@ -23,6 +22,7 @@ input{
     border-right: none;
     border-left: none;
     border-top: none;
+    outline: 0 ;
     border-bottom: 1px solid black;
 }
 .radio{
@@ -43,7 +43,7 @@ input{
    margin-top: 5%;
    padding: 60px;
    margin: 40px;
-padding: relative;
+
 }
 .section3{
     display: flex;
@@ -51,7 +51,7 @@ padding: relative;
    margin-top: 5%;
    padding: 60px;
    margin: 40px;
-padding: relative;
+
 }
 .section2{
     display: none;
@@ -61,4 +61,21 @@ padding: relative;
 }
 .zero{
    text-align: center;
+}
+.input:focus{
+outline: 0;
+box-shadow: 0 0 0 0;
+}
+@media screen and ( max-width:360px) {
+    h2{font-size: 0.8rem !important;
+    }
+    h5{
+        font-size: 0.8rem !important;
+    }
+    
+    .formulaire1{
+       
+        left: 2rem;
+    }
+    
 }
